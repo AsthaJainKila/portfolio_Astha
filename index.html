@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astha Jain | portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="header_left">
+                <div class="logo">
+                    <img  src="asthaProfilePic.jpg" alt="">
+                </div>
+                <a href="#Home">
+                <div class="name">ASTHA JAIN</div>
+                </a>
+            </div>
+            <div class="header_list">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#Home">HOME</a></li>
+                    <li class="nav-item"><a href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a href="#projects">PROJECTS</a></li>
+                    <li class="nav-item"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home-section">
+        <div class="container">
+            <h2 class="section-title" id="typed-text"></h2>
+            <p class="section-text">
+                Welcome to my portfolio! I am a passionate frontend developer and a machine learning enthusiast, 
+                dedicated to creating meaningful and innovative projects.
+            </p>
+            <a href="#about"><div class="scroll-arrow" id="scrollArrow" onclick="scrollToAbout()">
+                <img src="down-arrow-2.png" alt="">
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-heading">
+        <h2 >ABOUT ME</h2>
+        </div>
+        <div class="about-container">
+            <div class="intro">
+                <h2>Know Me</h2>
+                <p>
+                    I am Astha Jain, a student at VIT Bhopal, passionate about frontend development, artificial intelligence and machine learning. <br> <br> My academic journey revolves around problem-solving and crafting innovative solutions. Beyond coding, I seek balance outdoors, drawing inspiration for both my academic and creative pursuits. <br> <br> Explore my portfolio for a glimpse into the convergence of technology and creativity.
+                </p>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">C++</li>
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">JavaScript</li>
+                    <li class="skills-item">React</li>
+                    <li class="skills-item">Python</li>
+                    <li class="skills-item">Machine learning</li>
+                    <!-- <li class="skills-item">Data Science</li> -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section" id="projects">
+        <h2 class="section-heading">MY PROJECTS</h2>
+        <div class="projects-container">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <h3>VidyaSindhu</h3>
+                <p>Vidyasindhu is a tailored ReactJS web app on AWS, delivering custom audio and YouTube videos for easy access to Jain spiritual texts, catering to the needs of the Jain community.</p>
+                <a href="https://github.com/AsthaJainKila/VidyaSindhu" class="project-link">Learn More</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Laptop Price Predictor</h3>
+                <p>Utilizes advanced machine learning algorithms to predict laptop prices accurately, helping you make informed purchasing decisions in the world of technology.</p>
+                <a href="https://github.com/AsthaJainKila/LaptopPricePrediction" class="project-link">Learn More</a>
+            </div>
+
+            <div class="project-card">
+                <h3>BookNest</h3>
+                <p>"BookNest, employs machine learning to offer personalized book recommendations, fostering a tailored reading experience for users.</p>
+                <a href="https://github.com/AsthaJainKila/BookNest" class="project-link">Learn More</a>
+            </div>
+
+        </div>
+        <div class="github-link">
+            <a href="https://github.com/AsthaJainKila" target="_blank">View More on GitHub</a>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <h2 class="section-heading">CONTACT</h2>
+        <form class="contact-form" action="submit-form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input placeholder="Enter Your Name" ="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input placeholder="Enter Your Email" type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea placeholder="Enter Your Message" id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </section>  
+    
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Me</h3>
+                <p>I'm Astha Jain, a passionate frontend developer and machine learning enthusiast, dedicated to creating meaningful and innovative projects. </p>
+            </div>
+            <div class="footer-navigation">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <a href="https://www.linkedin.com/in/asthajain20/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/AsthaJainKila" target="_blank">GitHub</a>
+                <!-- <a href="" target="_blank">Instagram</a> -->
+                <!-- Add other social media links as necessary -->
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p>Email: astha.kila@gmail.com</p>
+                <!-- Add any additional contact information here -->
+            </div>
+        </div>
+        <div class="footer-legal">
+            <p>Designed By Astha Jain 'Kila'</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
