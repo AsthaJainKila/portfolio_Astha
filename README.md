@@ -1,4 +1,4 @@
-# K V D Sridhar's Portfolio
+# Astha Jain's Portfolio
 
 Welcome to my personal portfolio website project! This website showcases my skills, projects, and a glimpse into my journey in technology, creativity, spirituality, and science.
 
@@ -15,7 +15,7 @@ Welcome to my personal portfolio website project! This website showcases my skil
 
 ## About
 
-I am K V D Sridhar, a passionate frontend developer and data scientist currently pursuing my studies at VIT Bhopal. This portfolio serves as a visual representation of my skills, experiences, and the intersection of my diverse interests.
+I am Astha Jain, a passionate frontend developer and a machine learning enthusiast currently pursuing my studies at VIT Bhopal. This portfolio serves as a visual representation of my skills, experiences, and the intersection of my diverse interests.
 
 ## Features
 
